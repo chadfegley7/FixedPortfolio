@@ -1,0 +1,193 @@
+#name{
+  font-family:'savoye LET';
+  font-size: 75px;
+  position: relative;
+  top: 25px;
+  color: white;;
+}
+#headerJumbo{
+  text-align: center;
+  background-image: url("pics/sunset.jpg");
+  background-size: cover;
+  height: 650px;
+}
+#MEAN_Pic{
+  border-radius: 20px;
+}
+#MEAN{
+  margin-left: 100px;
+  width: 318px;
+  height: 600px;
+  display: inline-block;
+  border-radius: 20px;
+}
+#fullStack{
+  text-align: center;
+  color: orange;
+  background-color: black;
+  border-radius: 20px;
+}
+#meanAttributes{
+  font-size: 20px;
+  list-style-type: circle;
+  margin-left: auto;
+  margin-right: auto;
+  color: orange;
+  background-color: black;
+  border-radius: 20px;
+  width: 165px;
+}
+#pythonAttributes{
+  font-size: 20px;
+  list-style-type: circle;
+  margin-left: auto;
+  margin-right: auto;
+  color: orange;
+  background-color: black;
+  border-radius: 20px;
+  width: 165px;
+}
+#phpAttributes{
+  font-size: 20px;
+  list-style-type: circle;
+  margin-left: auto;
+  margin-right: auto;
+  color: orange;
+  background-color: black;
+  border-radius: 20px;
+  width: 165px;
+}
+#title{
+  color: white;
+}
+#python{
+  display: inline-block;
+  border-radius: 20px;
+  width: 318px;
+  height: 600px;
+  position: absolute;
+  margin: 0px 0 0 -150px;
+  left: 50%;
+}
+#php{
+  margin-right: 100px;
+  width: 318px;
+  height: 600px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 20px;
+}
+#pythonPic{
+  margin-left: 40px;
+  height: 210px;
+  width: 230px;
+}
+#phpPic{
+  height: 210px;
+  width: 300px;
+  margin-left: 10px;
+}
+#stacksJumbo{
+  height: 750px;
+  margin-top: -30px;
+  background-image: url("pics/bus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 5px solid black;
+}
+#MEAN, #python, #php{
+  margin-top: 45px;
+}
+#aboutGame{
+  display: inline-block;
+  height: 800px;
+  width: 400px;
+  margin-left: 50px;
+  background-color: black;
+  border-radius: 20px;
+  color: orange;
+}
+#gameScreenShots{
+  display: inline-block;
+  vertical-align: top;
+  height: 550px;
+  width: 950px;
+
+}
+#game2fame{
+  height: 600px;
+  width: 925px;
+}
+#jumboGame{
+  height: 950px;
+  margin-top: -30px;
+  background-image: url("pics/chinatown.jpg");
+  background-size: cover;
+  border-top: 5px solid black;
+}
+#logo{
+  height: 150px;
+  width: 350px;
+}
+#techs{
+  font-size: 20px;
+}
+#aboutHomie{
+  display: inline-block;
+  height: 650px;
+  width: 400px;
+  margin-left: 50px;
+  background-color: #ABC7EC;
+  border-radius: 20px;
+}
+#homieScreenShots{
+  display: inline-block;
+  vertical-align: top;
+  height: 550px;
+  width: 950px;
+
+}
+#homieApp{
+  height: 600px;
+  width: 925px;
+}
+#homieTechs{
+  font-size: 20px;
+}
+#homieJumbo{
+  margin-top: -30px;
+  background-image: url("pics/buildings.jpg");
+  background-size: cover;
+  border-top: 5px solid black;
+}
+#projectHomie{
+  text-align: center;
+}
+#summary{
+  margin-left: 15px;
+}
+#facebook{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+#linkedin{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+#git{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+#twitter{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+#flickr{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
