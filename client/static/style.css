@@ -191,3 +191,222 @@
   width: 50px;
   display: inline-block;
 }
+@media only screen and (max-width: 768px) {
+  #headerJumbo{
+    text-align: center;
+    background-image: url("pics/sunset.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%
+  }
+  #name{
+    font-family:'savoye LET';
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    color: white;;
+  }
+  #selfie{
+    height: 100px;
+    width: 150px;
+  }
+  #title{
+    font-size: 15px;
+    color: white;
+  }
+  #stacksJumbo{
+    height: 550px;
+    margin-top: -30px;
+    background-image: url("pics/paris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid black;
+  }
+  #MEAN{
+    margin-left: 10px;
+    width: 150px;
+    height: 300px;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    bottom: 75px;
+  }
+  #python{
+    display:block;
+    border-radius: 20px;
+    width: 160px;
+    height:310px;
+    margin-left: 50px;
+    position: absolute;
+    vertical-align: top;
+  }
+  #php{
+    width: 160px;
+    height: 300px;
+    display: block;
+    position: relative;
+    right: 100px;
+    bottom: 145px;
+
+    border-radius: 20px;
+  }
+  #MEAN_Pic{
+    height: 75px;
+    width: 125px;
+    position: relative;
+    left: 12px;
+  }
+  #fullStack{
+    text-align: center;
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pythonPic{
+    position: relative;
+    right: 28px;
+    height: 125px;
+    width: 125px;
+  }
+  #phpPic{
+    height: 125px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  #meanAttributes{
+    font-size: 10px;
+    list-style-type: circle;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    width: 150px;
+  }
+  #pythonAttributes{
+    font-size: 10px;
+    list-style-type: circle;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    width: 120px;
+  }
+  #phpAttributes{
+    font-size: 10px;
+    list-style-type: circle;
+    margin-left: auto;
+    margin-right: auto;
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    width: 115px;
+  }
+  .jumbotron{
+    width: 100%;
+  }
+  #jumboGame{
+    height: 600px;
+    margin-top: -30px;
+    background-image: url("pics/golden.jpg");
+    background-size: cover;
+    border-top: 5px solid black;
+  }
+  #aboutGame{
+    display: inline-block;
+    height: 340px;
+    width: 400px;
+    margin-left: 5px;
+    background: transparent;
+    border-radius: 20px;
+    color: orange;
+    position: relative;
+    bottom: 150px;
+  }
+  #summary{
+    font-size:12px;
+    background-color: black;
+    border-radius: 5px;
+  }
+  #logo{
+    height: 75px;
+    width: 150px;
+    position: relative;
+    left: 125px;
+  }
+  #techs{
+    font-size: 10px;
+    position: relative;
+    bottom: 55px;
+    background-color: black;
+    border-radius: 20px;
+    width: 125px;
+    left: 135px;
+  }
+  #projectHomie{
+    font-size: 10px;
+    position: relative;
+    bottom: 35px;
+  }
+  #game2fame{
+    position: relative;
+    left: 590px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    bottom: 175px;
+  }
+  #homieJumbo{
+    margin-top: -30px;
+    background-image: url("pics/gondola.jpg");
+    background-size: cover;
+    border-top: 5px solid black;
+    height: 700px;
+    border-bottom: 5px solid black;
+  }
+  #aboutHomie{
+    display: inline-block;
+    height: 310px;
+    width: 325px;
+    margin-left: 50px;
+    background-color: #ABC7EC;
+    border-radius: 20px;
+    position: relative;
+    bottom: 500px;
+  }
+  #homieTechs{
+    font-size: 10px;
+    position: relative;
+    bottom: 55px;
+    left: 95px;
+  }
+  #aboutHomie p{
+    position: relative;
+    right: 7px;
+    background: transparent;
+  }
+  #homieJumbo h2{
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+  }
+  #homieApp{
+    position: relative;
+    left: 595px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    bottom: 450px;
+  }
+  #homieScreenShots{
+
+  }
+  html{
+    background-image: url("pics/gondola.jpg");
+  }
+}
