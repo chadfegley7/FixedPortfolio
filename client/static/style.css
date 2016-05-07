@@ -196,12 +196,12 @@
     text-align: center;
     background-image: url("pics/sunset.jpg");
     background-size: cover;
-    height: 500px;
+    height: 600px;
     width: 100%
   }
   #name{
     font-family:'savoye LET';
-    font-size: 35px;
+    font-size: 75px;
     position: relative;
     top: 10px;
     color: white;;
@@ -211,8 +211,9 @@
     width: 150px;
   }
   #title{
-    font-size: 15px;
+    font-size: 35px;
     color: white;
+    font-family:'savoye LET';
   }
   #stacksJumbo{
     height: 550px;
@@ -406,6 +407,7 @@
   #homieScreenShots{
 
   }
+
   html{
     background-image: url("pics/gondola.jpg");
   }
