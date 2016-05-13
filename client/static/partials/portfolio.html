@@ -99,3 +99,27 @@
     <img src="static/pics/homieGroup.png" alt="" id="homieApp" />
   </div>
 </div>
+<script src="path/angular.min.js"></script>
+<script src="src/ngFlowGrid.js"></script>
+<script>
+app.controller('appCtrl',['$scope','fgDelegate',function($scope,fgDelegate){
+
+    $scope.updateGrid = function(){
+        var homePageGrid = fgDelegate.getFlow('homePageGrid');
+
+        // then you can:
+        homePageGrid.minItemWidth += 20;
+        homePageGrid.refill(true);
+    }
+
+}]);
+</script>
+<div ng-controller="picsController" id="galleryDiv">
+  <ul class="flowGrid" ng-flow-grid="homePageGrid" >
+    <li class="flowGridItem" ng-repeat="flickrPic in flickrPics" id="galleria">
+      <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
+      <center><h4 id="picTitle">{{flickrPic.title}}</h4></center>
+    </li>
+  </ul>
+
+</div>

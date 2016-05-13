@@ -5,14 +5,30 @@
   top: 25px;
   color: white;;
 }
+html{
+  height: 100%;
+}
 #headerJumbo{
   text-align: center;
   background-image: url("pics/sunset.jpg");
   background-size: cover;
   height: 650px;
 }
+#apiPics{
+  width: 425px;
+  margin: 15px;
+}
 #MEAN_Pic{
   border-radius: 20px;
+}
+#galleryDiv{
+  background-color: black;
+  color: orange;
+  margin-top: -30px;
+}
+#picTitle{
+  font-family:'savoye LET';
+  font-size: 30px;
 }
 #MEAN{
   margin-left: 100px;
@@ -81,6 +97,9 @@
   margin-left: 40px;
   height: 210px;
   width: 230px;
+}
+#galleria{
+  display: inline-block;
 }
 #phpPic{
   height: 210px;
@@ -191,6 +210,23 @@
   width: 50px;
   display: inline-block;
 }
+*{box-sizing: border-box;}
+.flowGrid:before,.flowGrid:after{
+    content: "";
+    display: table;
+}
+.flowGrid:after{
+    clear:both;
+}
+.flowGridItem{ margin-bottom:10px;}
+.flowGridItem img{width:100%;}
+.flowGridColumn{
+    float: left;
+    padding-left: 10px;
+}
+.flowGridColumn:last-of-type{
+    padding-right: 10px;
+}
 @media only screen and (max-width: 768px) {
   #headerJumbo{
     text-align: center;
@@ -201,7 +237,7 @@
   }
   #name{
     font-family:'savoye LET';
-    font-size: 75px;
+    font-size: 45px;
     position: relative;
     top: 10px;
     color: white;;
@@ -211,7 +247,7 @@
     width: 150px;
   }
   #title{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-family:'savoye LET';
   }
@@ -237,7 +273,7 @@
     border-radius: 20px;
     width: 160px;
     height:310px;
-    margin-left: 50px;
+    margin-left: 40px;
     position: absolute;
     vertical-align: top;
   }
