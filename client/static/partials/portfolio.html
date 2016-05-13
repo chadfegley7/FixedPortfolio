@@ -115,6 +115,8 @@ app.controller('appCtrl',['$scope','fgDelegate',function($scope,fgDelegate){
 }]);
 </script>
 <div ng-controller="picsController" id="galleryDiv">
+  <center><img src="static/pics/flick.jpg" /></center>
+  <center><h1 id="api">API Image Gallery</h1></center>
   <ul class="flowGrid" ng-flow-grid="homePageGrid" >
     <li class="flowGridItem" ng-repeat="flickrPic in flickrPics" id="galleria">
       <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
