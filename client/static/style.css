@@ -233,7 +233,7 @@ html{
 .flowGridColumn:last-of-type{
     padding-right: 10px;
 }
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #headerJumbo{
     text-align: center;
     background-image: url("pics/sunset.jpg");
@@ -453,4 +453,4 @@ html{
   html{
     background-image: url("pics/gondola.jpg");
   }
-}*/
+}
