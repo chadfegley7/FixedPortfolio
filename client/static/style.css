@@ -115,6 +115,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 5px solid black;
+
 }
 #headerJumbo:hover{
   background-image: url("pics/space.jpg");
@@ -126,8 +127,10 @@ html{
   display: inline-block;
   height: 800px;
   width: 400px;
+  position: relative;
+  bottom: 50px;
   margin-left: 50px;
-  background-color: black;
+  background: transparent;
   border-radius: 20px;
   color: orange;
 }
@@ -145,9 +148,14 @@ html{
 #jumboGame{
   height: 950px;
   margin-top: -30px;
-  background-image: url("pics/chinatown.jpg");
+  /*background-image: url("pics/chinatown.jpg");*/
   background-size: cover;
   border-top: 5px solid black;
+  background-color: black;
+}
+#video{
+  position: absolute;
+  margin-top: -50px;
 }
 #logo{
   height: 150px;
@@ -179,7 +187,7 @@ html{
   font-size: 20px;
 }
 #homieJumbo{
-  margin-top: -30px;
+  margin-top: -175px;
   background-image: url("pics/buildings.jpg");
   background-size: cover;
   border-top: 5px solid black;
