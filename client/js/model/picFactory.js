@@ -9,7 +9,7 @@ myApp.factory('picFactory', function($http){
     })
   }
   factory.jsonFlickrApi = function(callback){
-    $http.get("https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=9ffb484ba2dfead45ffcf3b07359e06d&user_id=134646885%40N03&per_page=125&format=json&nojsoncallback=1&auth_token=72157670568776236-929f505e9c2e6d08&api_sig=4b618336aaec3042d679b3b99222f5fe").success(function(output){
+    $http.get("https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=16f184ffabaadea95b50b4cf472c3cc7&user_id=134646885%40N03&per_page=100&format=json&nojsoncallback=1&auth_token=72157671065127685-7be80881b1a1292e&api_sig=af11347b703140e7217a75143b52be0b").success(function(output){
       callback(output);
       console.log(output);
       gallery = output.photos.photo;
