@@ -18,7 +18,7 @@ html{
 #apiPics{
   width: 425px;
   margin: 15px;
-  border: 2px solid white;
+  border: 2px solid orange;
 }
 #MEAN_Pic{
   border-radius: 20px;
@@ -38,6 +38,7 @@ html{
   height: 600px;
   display: inline-block;
   border-radius: 20px;
+
 }
 #fullStack{
   text-align: center;
@@ -53,6 +54,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
+  border: 2px solid orange;
   width: 165px;
 }
 #pythonAttributes{
@@ -63,6 +65,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
+  border: 2px solid orange;
   width: 165px;
 }
 #phpAttributes{
@@ -73,6 +76,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
+  border: 2px solid orange;
   width: 165px;
 }
 #title{
@@ -111,7 +115,7 @@ html{
 #stacksJumbo{
   height: 750px;
   margin-top: -30px;
-  background-image: url("pics/bus.jpg");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 5px solid black;
@@ -125,7 +129,7 @@ html{
 }
 #aboutGame{
   display: inline-block;
-  height: 800px;
+  height: 810px;
   width: 400px;
   position: relative;
   bottom: 50px;
@@ -133,22 +137,29 @@ html{
   background-color: black;
   border-radius: 20px;
   color: orange;
+  border: 2px solid orange;
 }
 #gameScreenShots{
   display: inline-block;
   vertical-align: top;
   height: 550px;
   width: 950px;
+  position: relative;
+  top: 75px;
+  margin-right: 15px;
 
 }
 #game2fame{
   height: 600px;
   width: 925px;
+  border: 2px solid orange;
+  border-radius: 20px;
+
 }
 #jumboGame{
-  height: 950px;
+  height: 965px;
   margin-top: -30px;
-  background-image: url("pics/chinatown.jpg");
+  background-color: black;
   background-size: cover;
   border-top: 5px solid black;
   background-color: black;
@@ -164,33 +175,107 @@ html{
 #techs{
   font-size: 20px;
 }
+#homieLogo{
+  padding-top: 5px;
+}
 #aboutHomie{
   display: inline-block;
-  height: 650px;
+  height: 815px;
   width: 400px;
   margin-left: 50px;
-  background-color: #ABC7EC;
+  background-color: black;
   border-radius: 20px;
+  border: 2px solid orange;
+  color: orange;
+}
+#aboutEarthquakes{
+  display: inline-block;
+  height: 835px;
+  width: 400px;
+  margin-left: 50px;
+  background-color: black;
+  border-radius: 20px;
+  border: 2px solid orange;
+  color: orange;
+}
+#homieTitle{
+  margin-top: -20px;
 }
 #homieScreenShots{
   display: inline-block;
   vertical-align: top;
   height: 550px;
   width: 950px;
+  position: relative;
+  top: 100px;
+  margin-right: 15px;
 
+}
+#earthScreenShots{
+  display: inline-block;
+  vertical-align: top;
+  height: 550px;
+  width: 950px;
+  position: relative;
+  top: 100px;
+  margin-right: 15px;
+}
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+#earthScreenShots:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(8px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
 }
 #homieApp{
   height: 600px;
   width: 925px;
+  border: 2px solid orange;
+  border-radius: 20px;
 }
 #homieTechs{
   font-size: 20px;
 }
+#earthquakesTechs{
+  font-size: 20px;
+}
 #homieJumbo{
   margin-top: -175px;
-  background-image: url("pics/buildings.jpg");
+  background-color: black;
   background-size: cover;
   border-top: 5px solid black;
+  margin-bottom: -30px;
+}
+#earthquakeJumbo{
+  background-color: black;
+  background-size: cover;
+  height: 965px;
+}
+#earthTech{
+  text-align: center;
 }
 #projectHomie{
   text-align: center;
