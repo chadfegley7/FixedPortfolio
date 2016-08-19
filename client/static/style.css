@@ -3,10 +3,16 @@
   font-size: 75px;
   position: relative;
   top: 25px;
-  color: white;;
+  color: white;
 }
+
 html{
   height: 100%;
+}
+#selfie{
+  height: 250px;
+  width: 225px;
+  border: 2px solid white;
 }
 
 #headerJumbo{
