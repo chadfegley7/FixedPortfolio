@@ -25,6 +25,7 @@ html{
   width: 425px;
   margin: 15px;
   border: 2px solid orange;
+  border-radius: 20px;
 }
 #MEAN_Pic{
   border-radius: 20px;
@@ -60,7 +61,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   width: 165px;
 }
 #pythonAttributes{
@@ -71,7 +72,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   width: 165px;
 }
 #phpAttributes{
@@ -82,7 +83,7 @@ html{
   color: orange;
   background-color: black;
   border-radius: 20px;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   width: 165px;
 }
 #title{
@@ -143,7 +144,7 @@ html{
   background-color: black;
   border-radius: 20px;
   color: orange;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
 }
 #gameScreenShots{
   display: inline-block;
@@ -152,14 +153,15 @@ html{
   width: 950px;
   position: relative;
   top: 75px;
-  margin-right: 15px;
+
 
 }
 #game2fame{
-  height: 600px;
-  width: 925px;
-  border: 2px solid orange;
+  height: 500px;
+  width: 725px;
+  /*border: 2px solid orange;*/
   border-radius: 20px;
+  margin-left: 25px;
 
 }
 #jumboGame{
@@ -191,8 +193,9 @@ html{
   margin-left: 50px;
   background-color: black;
   border-radius: 20px;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   color: orange;
+
 }
 #aboutEarthquakes{
   display: inline-block;
@@ -201,7 +204,7 @@ html{
   margin-left: 50px;
   background-color: black;
   border-radius: 20px;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   color: orange;
 }
 #homieTitle{
@@ -209,22 +212,19 @@ html{
 }
 #homieScreenShots{
   display: inline-block;
-  vertical-align: top;
-  height: 550px;
-  width: 950px;
+  /*vertical-align: top;*/
   position: relative;
   top: 100px;
-  margin-right: 15px;
-
+  height: 400px;
+  width: 950px;
 }
 #earthScreenShots{
   display: inline-block;
   vertical-align: top;
-  height: 550px;
+  height: 450px;
   width: 950px;
   position: relative;
   top: 100px;
-  margin-right: 15px;
 }
 .shake:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
