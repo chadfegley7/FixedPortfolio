@@ -125,7 +125,7 @@ html{
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: 5px solid black;
+  border-top: 5px solid orange;
 
 }
 #headerJumbo:hover{
@@ -180,6 +180,7 @@ html{
   height: 150px;
   width: 350px;
 }
+
 #techs{
   font-size: 20px;
 }
@@ -384,7 +385,7 @@ html{
     background-image: url("pics/paris.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: 5px solid black;
+    border-top: 5px solid white;
   }
   #MEAN{
     margin-left: 10px;

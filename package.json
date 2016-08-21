@@ -4,6 +4,7 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "mongoose": "latest"
+    "mongoose": "latest",
+    "ng-dialog": "latest"
   }
 }
