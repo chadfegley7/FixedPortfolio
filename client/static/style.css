@@ -20,7 +20,7 @@ html{
 #selfie{
   height: 250px;
   width: 225px;
-  border: 2px solid white;
+  border: 2px solid black;
   position: relative;
   top: 25px;
 }
