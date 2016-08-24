@@ -16,5 +16,5 @@ require("./server/config/routes.js");
 
 
 app.listen(8000, function(){
-  console.log("Plan a trip on port 8000!!!")
+  console.log("Portfolio up and running!!!")
 });

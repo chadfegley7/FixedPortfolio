@@ -1,16 +1,29 @@
 
 <div class="jumbotron" id="headerJumbo">
-  <p id="name">Chad Fegley</p>
+  <!-- <p id="name">Chad Fegley</p> -->
   <img src="static/pics/ChadProfile.jpg" alt="" class="img-circle" id="selfie" />
   <br /><br /><br /><br />
-  <p id="title">Full Stack Web Developer<br />Photographer</p><br />
-  <a href="https://www.facebook.com/chad.fegley.3"><img src="static/pics/facebook.png" alt="" id="facebook" /></a>
+  <!-- <p id="title">Full Stack Web Developer<br />Photographer</p><br /> -->
+  <!-- <a href="https://www.facebook.com/chad.fegley.3"><img src="static/pics/facebook.png" alt="" id="facebook" /></a>
   <a href="https://www.linkedin.com/in/chadfegley7"><img src="static/pics/linkedin.png" alt="" id="linkedin" /></a>
   <a href="https://www.github.com/chadfegley7"><img src="static/pics/github.png" alt="" id="git" /></a>
   <a href="https://twitter.com/FegleyChad"><img src="static/pics/twitter.png" alt="" id="twitter" /></a>
-  <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" /></a>
+  <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" /></a> -->
 </div>
 <div class="jumbotron" id="stacksJumbo">
+  <div id="nameDiv" class="pull-left">
+    <p id="name">Chad Fegley</p>
+  </div>
+  <div id="fullWebDev" class="pull-center">
+    <p id="title">Full Stack Web Developer<br />Photographer</p><br />
+  </div>
+  <div id="socialIcons" class="pull-right">
+    <a href="https://www.facebook.com/chad.fegley.3"><img src="static/pics/facebook.png" alt="" id="facebook" /></a>
+    <a href="https://www.linkedin.com/in/chadfegley7"><img src="static/pics/linkedin.png" alt="" id="linkedin" /></a>
+    <a href="https://www.github.com/chadfegley7"><img src="static/pics/github.png" alt="" id="git" /></a>
+    <a href="https://twitter.com/FegleyChad"><img src="static/pics/twitter.png" alt="" id="twitter" /></a>
+    <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" /></a>
+  </div>
   <div id="MEAN" class="pull-left">
     <img src="static/pics/meanSlice.png" alt="" id="MEAN_Pic" />
     <h3 id="fullStack">Full Stack Developer</h3>
@@ -105,11 +118,11 @@
 </div>
 <div class ="jumbotron" id="earthquakeJumbo">
   <div id="aboutEarthquakes" class="col-xs-6 col-md-4">
-    <center><h1 class="shake">Shake Quake</h1></center>
+    <center><h1 class="shake" id="shakeQuake">Shake Quake</h1></center>
     <p id="summary">Web app that allows users to visually learn in depth about earthquakes. They have access to all earthquake information from 1970 to present day including magnitude, location, date, and time. Created in 24 hours for NGA Expedition Hackathon.<br /><br />
       <a href="https://github.com/chadfegley7/NGAExpeditionHack.git">Github</a>
     </p>
-    <h3 id="earthTech">Technologies</h3><br />
+    <h3 id="projectHomie">Technologies</h3><br />
     <ul id="earthquakesTechs">
       <li>JavaScript</li>
       <li>Angular</li>
@@ -146,7 +159,7 @@ app.controller('appCtrl',['$scope','fgDelegate',function($scope,fgDelegate){
 
 <div ng-controller="picsController" id="galleryDiv">
   <center><img src="static/pics/flick.jpg" /></center>
-  <center><h1 id="api">API Image Gallery</h1></center>
+  <center><h1 id="api">API Photo Gallery</h1></center>
   <ul class="flowGrid" ng-flow-grid="homePageGrid" >
     <li class="flowGridItem" ng-repeat="flickrPic in flickrPics" id="galleria">
       <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
