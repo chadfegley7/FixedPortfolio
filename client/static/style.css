@@ -168,8 +168,6 @@ html{
   width: 950px;
   position: relative;
   top: 75px;
-
-
 }
 #game2fame{
   height: 500px;
@@ -307,6 +305,37 @@ html{
   background-color: black;
   background-size: cover;
   height: 965px;
+}
+#weatherJumbo{
+  margin-top: -100px;
+  background-color: black;
+  background-size: cover;
+  height: 965px;
+  border-top: 5px solid black;
+
+}
+#aboutWeather{
+  display: inline-block;
+  height: 835px;
+  width: 400px;
+  margin-left: 50px;
+  background-color: black;
+  border-radius: 20px;
+  /*border: 2px solid orange;*/
+  color: orange;
+}
+#weatherScreenShots{
+  display: inline-block;
+  vertical-align: top;
+  height: 450px;
+  width: 950px;
+  position: relative;
+  top: 100px;
+}
+#reactTitle{
+  margin-top: -20px;
+  font-family:'savoye LET';
+  color: white;
 }
 #earthTech{
   text-align: center;
