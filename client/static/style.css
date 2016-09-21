@@ -10,6 +10,14 @@
   .welcomeName{
     padding-top: 15px;
   }
+  .pictures{
+    padding: 25px 25px 25px 0px;
+  }
+  #picTitle{
+    font-family: 'savoye LET';
+    font-size: 40px;
+    color: orange;
+  }
   #headerJumbo{
     height: 600px;
     width: 100%;

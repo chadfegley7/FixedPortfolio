@@ -198,8 +198,8 @@ app.controller('appCtrl',['$scope','fgDelegate',function($scope,fgDelegate){
   <div class="row">
     <div ng-controller="picsController">
       <center><img src="static/pics/flick.jpg" /></center>
-      <center><h1 id="api">API Photo Gallery</h1></center>
-      <div class="col-xs-12 col-sm-4" ng-repeat="flickrPic in flickrPics" >
+      <center><h1 id="picTitle">API Photo Gallery</h1></center>
+      <div class="pictures col-xs-12 col-sm-4" ng-repeat="flickrPic in flickrPics" >
 
           <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
           <center><h4 id="picTitle">{{flickrPic.title}}</h4></center>
