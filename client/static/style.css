@@ -130,8 +130,7 @@
   #apiPics{
     width: 475px;
     display: inline-block;
-    margin: 15px;
-    border: 2px solid orange;
+    padding: 25px 25px 25px 25px;
     border-radius: 20px;
   }
   .shake:hover {
