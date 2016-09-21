@@ -1,662 +1,196 @@
-#name{
-  font-family:'savoye LET';
-  font-size: 75px;
-  position: relative;
-  color: orange;
-  width: 300px;
-  height: 100px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-html{
-  height: 100%;
-}
-#selfie{
-  height: 250px;
-  width: 225px;
-  border: 2px solid black;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  top: 150px;
-
-}
-
-#headerJumbo{
-  text-align: center;
-  background-image: url("pics/collage.png");
-  background-size: cover;
-  height: 650px;
-}
-#apiPics{
-  width: 425px;
-  margin: 15px;
-  border: 2px solid orange;
-  border-radius: 20px;
-}
-#MEAN_Pic{
-  border-radius: 20px;
-}
-#galleryDiv{
-  background-color: black;
-  color: orange;
-  margin-top: -30px;
-}
-#picTitle{
-  font-family:'savoye LET';
-  font-size: 30px;
-}
-#MEAN{
-  width: 318px;
-  height: 600px;
-  display: inline-block;
-  border-radius: 20px;
-
-}
-#fullStack{
-  text-align: center;
-  color: white;
-  background-color: black;
-  border-radius: 20px;
-}
-#meanAttributes{
-  font-size: 20px;
-  list-style-type: circle;
-  margin-left: auto;
-  margin-right: auto;
-  color: orange;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  width: 165px;
-}
-#pythonAttributes{
-  font-size: 20px;
-  list-style-type: circle;
-  margin-left: auto;
-  margin-right: auto;
-  color: orange;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  width: 165px;
-}
-#phpAttributes{
-  font-size: 20px;
-  list-style-type: circle;
-  margin-left: auto;
-  margin-right: auto;
-  color: orange;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  width: 165px;
-}
-#title{
-  color: orange;
-  background-color: black;
-  font-family:'savoye LET';
-  font-size: 30px;
-  width: 300px;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#python{
-  display: inline-block;
-  border-radius: 20px;
-  width: 318px;
-  height: 600px;
-  position: absolute;
-  margin: 0px 0 0 -150px;
-  left: 50%;
-}
-#php{
-  width: 318px;
-  height: 600px;
-  display: inline-block;
-  margin-right: 100px;
-  border-radius: 20px;
-}
-#pythonPic{
-  margin-left: 40px;
-  height: 210px;
-  width: 230px;
-}
-#galleria{
-  display: inline-block;
-}
-#phpPic{
-  height: 210px;
-  width: 300px;
-  margin-left: 10px;
-}
-#stacksJumbo{
-  height: 850px;
-  margin-top: -30px;
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: 5px solid orange;
-
-}
-/*#headerJumbo:hover{
-  background-image: url("pics/space.jpg");
-}*/
-#MEAN, #python, #php{
-  margin-top: 100px;
-  padding-top: 15px;
-}
-#aboutGame{
-  display: inline-block;
-  height: 810px;
-  width: 400px;
-  position: relative;
-  bottom: 50px;
-  margin-left: 50px;
-  background-color: black;
-  border-radius: 20px;
-  color: orange;
-  /*border: 2px solid orange;*/
-}
-#gameScreenShots{
-  display: inline-block;
-  vertical-align: top;
-  height: 550px;
-  width: 950px;
-  position: relative;
-  top: 75px;
-}
-#game2fame{
-  height: 500px;
-  width: 725px;
-  /*border: 2px solid orange;*/
-  border-radius: 20px;
-  margin-left: 25px;
-
-}
-#jumboGame{
-  height: 965px;
-  margin-top: -30px;
-  background-color: black;
-  background-size: cover;
-  border-top: 5px solid black;
-  background-color: black;
-}
-/*#video{
-  position: absolute;
-  margin-top: -50px;
-}*/
-#logo{
-  height: 150px;
-  width: 350px;
-  position: relative;
-  left: 25px;
-}
-
-#techs{
-  font-size: 20px;
-}
-#homieLogo{
-  padding-top: 5px;
-  margin-left: 15px;
-}
-#aboutHomie{
-  display: inline-block;
-  height: 815px;
-  width: 400px;
-  margin-left: 50px;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  color: orange;
-
-}
-#aboutEarthquakes{
-  display: inline-block;
-  height: 835px;
-  width: 400px;
-  margin-left: 50px;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  color: orange;
-}
-#homieTitle{
-  margin-top: -20px;
-  font-family:'savoye LET';
-  color: white;
-}
-#homieScreenShots{
-  display: inline-block;
-  /*vertical-align: top;*/
-  position: relative;
-  top: 100px;
-  height: 400px;
-  width: 950px;
-}
-.shake{
-  font-family:'savoye LET';
-  font-size: 55px;
-}
-#shakeQuake{
-  color: white;
-}
-#earthScreenShots{
-  display: inline-block;
-  vertical-align: top;
-  height: 450px;
-  width: 950px;
-  position: relative;
-  top: 100px;
-}
-.shake:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-#earthScreenShots:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-8px, 0, 0);
+  html{
+    background-color: black;
   }
-
-  20%, 80% {
-    transform: translate3d(8px, 0, 0);
+  .container-fluid{
+    background-color: black;
   }
-
-  30%, 50%, 70% {
-    transform: translate3d(-8px, 0, 0);
+  .needPad{
+    padding-top: 200px;
   }
-
-  40%, 60% {
-    transform: translate3d(8px, 0, 0);
+  .welcomeName{
+    padding-top: 15px;
   }
-}
-#homieApp{
-  height: 600px;
-  width: 925px;
-  border: 2px solid orange;
-  border-radius: 20px;
-}
-#homieTechs{
-  font-size: 20px;
-}
-#earthquakesTechs{
-  font-size: 20px;
-}
-#homieJumbo{
-  margin-top: -175px;
-  background-color: black;
-  background-size: cover;
-  border-top: 5px solid black;
-  margin-bottom: -30px;
-}
-#earthquakeJumbo{
-  background-color: black;
-  background-size: cover;
-  height: 965px;
-}
-#weatherJumbo{
-  margin-top: -100px;
-  background-color: black;
-  background-size: cover;
-  height: 965px;
-  border-top: 5px solid black;
-
-}
-#aboutWeather{
-  display: inline-block;
-  height: 835px;
-  width: 400px;
-  margin-left: 50px;
-  background-color: black;
-  border-radius: 20px;
-  /*border: 2px solid orange;*/
-  color: orange;
-}
-#weatherScreenShots{
-  display: inline-block;
-  vertical-align: top;
-  height: 450px;
-  width: 950px;
-  position: relative;
-  top: 100px;
-}
-#reactTitle{
-  margin-top: -20px;
-  font-family:'savoye LET';
-  color: white;
-}
-#earthTech{
-  text-align: center;
-}
-#projectHomie{
-  text-align: center;
-  color: white;
-}
-#summary{
-  margin-left: 15px;
-}
-#facebook{
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-#linkedin{
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-#git{
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  background-color: orange;
-  border-radius: 50px;
-}
-#api{
-  font-family:'savoye LET';
-  font-size: 60px;
-}
-#twitter{
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-#flickr{
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-#socialIcons{
-  width: 275px;
-  vertical-align: top;
-  display: inline-block;
-  margin-top: -90px;
-}
-#nameDiv{
-  width: 100px;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  bottom: 50px;
-  padding-left: 25px;
-
-}
-#fullWebDev{
-  width: 225px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: top;
-  margin-top: -40px;
-  position: relative;
-  right: 25px;
-}
-#apiPics:hover {
-  -webkit-filter: grayscale(0%);
-  -webkit-transition: .5s ease-in-out;
-  -moz-filter: grayscale(0%);
-  -moz-transition: .5s ease-in-out;
-  -o-filter: grayscale(0%);
-  -o-transition: .5s ease-in-out;
-  filter: grayscale(0%);
-}
-
-#apiPics {
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: .5s ease-in-out;
-  -moz-filter: grayscale(100%);
-  -moz-transition: .5s ease-in-out;
-  -o-filter: grayscale(100%);
-  -o-transition: .5s ease-in-out;
-  filter: grayscale(100%);
-}
-*{box-sizing: border-box;}
-.flowGrid:before,.flowGrid:after{
-    content: "";
-    display: table;
-}
-.flowGrid:after{
-    clear:both;
-}
-.flowGridItem{ margin-bottom:10px;}
-.flowGridItem img{width:100%;}
-.flowGridColumn{
-    float: left;
-    padding-left: 10px;
-}
-.flowGridColumn:last-of-type{
-    padding-right: 10px;
-}
-@media only screen and (max-width: 768px) {
   #headerJumbo{
-    text-align: center;
-    background-image: url("pics/sunset.jpg");
-    background-size: cover;
     height: 600px;
-    width: 100%
+    width: 100%;
+  }
+
+  #selfie{
+    height: 50px;
+    width: 50px;
+  }
+  #socialIcons{
+    display: inline-block;
+    position: relative;
+  }
+  .socialMedia{
+    height: 50px;
+    width: 50px;
+  }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
   }
   #name{
     font-family:'savoye LET';
-    font-size: 45px;
-    position: relative;
-    top: 10px;
-    color: white;;
+    color: orange;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
   }
   #selfie{
-    height: 100px;
-    width: 150px;
-  }
-  #title{
-    font-size: 25px;
-    color: white;
-    font-family:'savoye LET';
-  }
-  #stacksJumbo{
-    height: 550px;
-    margin-top: -30px;
-    background-image: url("pics/paris.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top: 5px solid white;
-  }
-  #MEAN{
-    margin-left: 10px;
-    width: 150px;
-    height: 300px;
-    display: block;
-    border-radius: 20px;
+    height: 250px;
+    width: 225px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-    bottom: 75px;
+    top: 150px;
   }
-  #python{
-    display:block;
-    border-radius: 20px;
-    width: 160px;
-    height:310px;
-    margin-left: 40px;
-    position: absolute;
-    vertical-align: top;
+  #git{
+    background-color: orange;
+    border-radius: 75px;
   }
-  #php{
-    width: 160px;
-    height: 300px;
-    display: block;
-    position: relative;
-    right: 100px;
-    bottom: 145px;
 
-    border-radius: 20px;
-  }
-  #MEAN_Pic{
-    height: 75px;
-    width: 125px;
-    position: relative;
-    left: 12px;
-  }
-  #fullStack{
+  .stacks{
+    display: inline-block;
+    padding: 25px;
+    color: orange;
     text-align: center;
-    color: orange;
-    background-color: black;
-    border-radius: 20px;
-    font-size: 15px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
   }
-  #pythonPic{
-    position: relative;
-    right: 28px;
-    height: 125px;
-    width: 125px;
+  .attributes{
+    list-style-type: none;
+    padding-right: 35px;
   }
-  #phpPic{
-    height: 125px;
-    width: 150px;
-    margin-left: 10px;
+  .stackLogo{
+    height: 200px;
+    width: 250px;
   }
-  #meanAttributes{
-    font-size: 10px;
-    list-style-type: circle;
-    margin-left: auto;
-    margin-right: auto;
-    color: orange;
-    background-color: black;
-    border-radius: 20px;
-    width: 150px;
+  #game2fameLogo{
+    height: 175px;
+    width: 350px;
   }
-  #pythonAttributes{
-    font-size: 10px;
-    list-style-type: circle;
-    margin-left: auto;
-    margin-right: auto;
-    color: orange;
-    background-color: black;
-    border-radius: 20px;
-    width: 120px;
-  }
-  #phpAttributes{
-    font-size: 10px;
-    list-style-type: circle;
-    margin-left: auto;
-    margin-right: auto;
-    color: orange;
-    background-color: black;
-    border-radius: 20px;
-    width: 115px;
-  }
-  .jumbotron{
+  html{
+    height: 100%;
     width: 100%;
   }
-  #jumboGame{
-    height: 600px;
-    margin-top: -30px;
-    background-image: url("pics/golden.jpg");
-    background-size: cover;
-    border-top: 5px solid black;
-  }
-  #aboutGame{
+  #title{
+    font-family:'savoye LET';
     display: inline-block;
-    height: 340px;
-    width: 400px;
-    margin-left: 5px;
-    background: transparent;
-    border-radius: 20px;
+    font-size: 35px;
+    text-align: center;
     color: orange;
-    position: relative;
-    bottom: 150px;
   }
-  #summary{
-    font-size:12px;
-    background-color: black;
-    border-radius: 5px;
+  .center-block{
+    margin-left: auto;
+    margin-right: auto;
   }
-  #logo{
-    height: 75px;
-    width: 150px;
-    position: relative;
-    left: 125px;
-  }
-  #techs{
-    font-size: 10px;
-    position: relative;
-    bottom: 55px;
-    background-color: black;
-    border-radius: 20px;
-    width: 125px;
-    left: 135px;
-  }
-  #projectHomie{
-    font-size: 10px;
-    position: relative;
-    bottom: 35px;
-  }
-  #game2fame{
-    position: relative;
-    left: 590px;
-    height: 200px;
-    width: 300px;
-    border-radius: 20px;
-    bottom: 175px;
-  }
-  #homieJumbo{
-    margin-top: -30px;
-    background-image: url("pics/gondola.jpg");
+
+  #headerJumbo{
+    text-align: center;
+    background-image: url("pics/collage.png");
     background-size: cover;
-    border-top: 5px solid black;
-    height: 700px;
-    border-bottom: 5px solid black;
+
+    width: 100%;
   }
-  #aboutHomie{
+  .appInfo{
     display: inline-block;
-    height: 310px;
-    width: 325px;
-    margin-left: 50px;
-    background-color: #ABC7EC;
-    border-radius: 20px;
-    position: relative;
-    bottom: 500px;
+    color: orange;
+    font-size: 18px;
   }
-  #homieTechs{
-    font-size: 10px;
-    position: relative;
-    bottom: 55px;
-    left: 95px;
+  .appScreenShots{
+    display: inline-block;
+    padding-left: 50px;
   }
-  #aboutHomie p{
-    position: relative;
-    right: 7px;
-    background: transparent;
+  .appPictures{
+    height: 600px;
+    width: 950px;
+    border-radius: 25px;
   }
-  #homieJumbo h2{
-    font-size: 16px;
-    position: relative;
-    top: 5px;
+  .appTechs{
+    border-bottom: 2px solid orange;
   }
-  #homieApp{
-    position: relative;
-    left: 595px;
-    height: 200px;
-    width: 300px;
-    border-radius: 20px;
-    bottom: 450px;
-  }
-  #homieScreenShots{
-
+  .appTitle{
+    font-size: 50px;
+    font-family: 'savoye LET';
   }
 
-  html{
-    background-image: url("pics/gondola.jpg");
+  #shakeQuake{
+    font-family: 'savoye LET';
+    font-size: 50px;
   }
-}
+  #apiPics{
+    width: 475px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid orange;
+    border-radius: 20px;
+  }
+  .shake:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  #earthScreenShots:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-8px, 0, 0);
+    }
+
+    20%, 80% {
+      transform: translate3d(8px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-8px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(8px, 0, 0);
+    }
+  }
+
+
+  #apiPics:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+    filter: grayscale(0%);
+  }
+
+  #apiPics {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: .5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  *{box-sizing: border-box;}
+  .flowGrid:before,.flowGrid:after{
+      content: "";
+      display: table;
+  }
+  .flowGrid:after{
+      clear:both;
+  }
+  .flowGridItem{ margin-bottom:10px;}
+  .flowGridItem img{width:100%;}
+  .flowGridColumn{
+      float: left;
+      padding-left: 10px;
+  }
+  .flowGridColumn:last-of-type{
+      padding-right: 10px;
+  }

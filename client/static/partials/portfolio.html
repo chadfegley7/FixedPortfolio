@@ -1,5 +1,5 @@
 
-<div class="jumbotron" id="headerJumbo">
+<div class="container" id="headerJumbo">
   <!-- <p id="name">Chad Fegley</p> -->
   <img src="static/pics/ChadProfile.jpg" alt="" class="img-circle" id="selfie" />
   <br /><br /><br /><br />
@@ -10,159 +10,173 @@
   <a href="https://twitter.com/FegleyChad"><img src="static/pics/twitter.png" alt="" id="twitter" /></a>
   <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" /></a> -->
 </div>
-<div class="jumbotron" id="stacksJumbo">
-  <div id="nameDiv" class="pull-left">
-    <p id="name">Chad Fegley</p>
-  </div>
-  <div id="fullWebDev" class="pull-center">
-    <p id="title">Full Stack Web Developer<br />Photographer</p><br />
-  </div>
-  <div id="socialIcons" class="pull-right">
-    <a href="https://www.facebook.com/chad.fegley.3"><img src="static/pics/facebook.png" alt="" id="facebook" /></a>
-    <a href="https://www.linkedin.com/in/chadfegley7"><img src="static/pics/linkedin.png" alt="" id="linkedin" /></a>
-    <a href="https://www.github.com/chadfegley7"><img src="static/pics/github.png" alt="" id="git" /></a>
-    <a href="https://twitter.com/FegleyChad"><img src="static/pics/twitter.png" alt="" id="twitter" /></a>
-    <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" /></a>
-  </div>
-  <div id="MEAN" class="pull-left">
-    <img src="static/pics/meanSlice.png" alt="" id="MEAN_Pic" />
-    <h3 id="fullStack">Full Stack Developer</h3>
-    <ul id="meanAttributes">
-      <li>MongoDB</li>
-      <li>Express</li>
-      <li>AngularJS</li>
-      <li>Node.js</li>
-      <li>Mongoose.js</li>
-      <li>Socket.io</li>
-      <li>Passport</li>
-      <li>D3JS</li>
-      <li>React</li>
-    </ul>
-  </div>
-  <div id="python" class="pull-center">
-    <img src="static/pics/pythonSlice.png" alt="" id="pythonPic"/>
-    <h3 id="fullStack">Full Stack Developer</h3>
-    <ul id="pythonAttributes">
-      <li>Flask</li>
-      <li>Django</li>
-      <li>Apache</li>
-      <li>MySQL</li>
-      <li>OAuth</li>
-    </ul>
-  </div>
-  <div id="php" class="pull-right">
-    <img src="static/pics/phpSlice.png" alt="" id="phpPic" />
-    <h3 id="fullStack">Full Stack Developer</h3>
-    <ul id="phpAttributes">
-      <li>CodeIgniter</li>
-      <li>Laravel5</li>
-      <li>Apache</li>
-      <li>MySQL</li>
-      <li>OAuth</li>
-    </ul>
+<div class="welcomeName container-fluid">
+  <div class="row">
+    <div class="intro col-xs-12 col-sm-4" id="name">Chad Fegley</div>
+    <div class="intro col-xs-12 col-sm-4"id="title">Full Stack Web Developer<br />Photographer</div>
+    <div class="intro col-xs-12 col-sm-3 col-sm-offset-1 "id="socialIcons">
+      <a href="https://www.facebook.com/chad.fegley.3"><img src="static/pics/facebook.png" alt="" id="facebook" class="socialMedia" /></a>
+      <a href="https://www.linkedin.com/in/chadfegley7"><img src="static/pics/linkedin.png" alt="" id="linkedin" class="socialMedia" /></a>
+      <a href="https://www.github.com/chadfegley7"><img src="static/pics/github.png" alt="" id="git" class="socialMedia" /></a>
+      <a href="https://twitter.com/FegleyChad"><img src="static/pics/twitter.png" alt="" id="twitter" class="socialMedia" /></a>
+      <a href="https://www.flickr.com/photos/134646885@N03/"><img src="static/pics/flickr.png" alt="" id="flickr" class="socialMedia" /></a>
+    </div>
   </div>
 </div>
-<div class="jumbotron" id="jumboGame">
+<div class="needPad container-fluid">
+  <div class="row">
+      <div id="MEAN" class="stacks col-xs-12 col-sm-4">
+        <img src="static/pics/meanSlice.png" alt="" id="MEAN_Pic" class="stackLogo"/>
+        <h3 id="fullStack">Full Stack Developer</h3>
+        <ul class="attributes" id="meanAttributes">
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>AngularJS</li>
+          <li>Node.js</li>
+          <li>Mongoose.js</li>
+          <li>Socket.io</li>
+          <li>Passport</li>
+          <li>D3JS</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div id="python" class="stacks col-xs-12 col-sm-4">
+        <img src="static/pics/pythonSlice.png" alt="" id="pythonPic" class="stackLogo"/>
+        <h3 id="fullStack">Full Stack Developer</h3>
+        <ul class="attributes" id="pythonAttributes">
+          <li>Flask</li>
+          <li>Django</li>
+          <li>Apache</li>
+          <li>MySQL</li>
+          <li>OAuth</li>
+        </ul>
+      </div>
+      <div id="php" class="stacks col-xs-12 col-sm-4">
+        <img src="static/pics/phpSlice.png" alt="" id="phpPic" class="stackLogo"/>
+        <h3 id="fullStack">Full Stack Developer</h3>
+        <ul class="attributes" id="phpAttributes">
+          <li>CodeIgniter</li>
+          <li>Laravel5</li>
+          <li>Apache</li>
+          <li>MySQL</li>
+          <li>OAuth</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="jumbotron" id="jumboGame"> -->
   <!-- <video poster="" width="100%" autoplay="true" id="video" loop>
     <source src="/static/pics/GameVideo.mp4" type="video/mp4"/>
   </video> -->
-  <div id="aboutGame" class="col-xs-6 col-md-4">
-    <img src="static/pics/whitelogo.png" id="logo" />
-    <p id="summary">Web app that allows users to challenge each other in video games, setting up game rooms where players can wager bitcoins as bets. Each player has their own customizable profile and can interact through direct messages or through a chatroom.<br /><br />
-      <a href="https://github.com/AntonisFK/game2fame">Github</a>
-    </p>
-    <h3 id="projectHomie">Technologies</h3><br />
-    <ul id="techs">
-      <li>JavaScript</li>
-      <li>MongoDB</li>
-      <li>Angular</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>Socket.io</li>
-      <li>Block.io API</li>
-      <li>Twitter Bootstrap</li>
-      <li>Passport</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-    </ul>
+  <div class="needPad container-fluid">
+    <div class="row">
+      <div class="appInfo col-xs-12 col-sm-4">
+        <center><img src="static/pics/whitelogo.png" id="game2fameLogo" /></center>
+        <p id="summary">Web app that allows users to challenge each other in video games, setting up game rooms where players can wager bitcoins as bets. Each player has their own customizable profile and can interact through direct messages or through a chatroom.<br /><br />
+          <a href="https://github.com/AntonisFK/game2fame">Github</a>
+        </p>
+        <center><h3 class="appTechs">Technologies</h3></center><br /><br />
+        <ul class="attributes" id="techs">
+          <li>JavaScript</li>
+          <li>MongoDB</li>
+          <li>Angular</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>Socket.io</li>
+          <li>Block.io API</li>
+          <li>Twitter Bootstrap</li>
+          <li>Passport</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+      <div class="appScreenShots col-xs-12 col-sm-4">
+        <div id="gameScreenShots">
+          <img src="static/pics/mashup.png" alt="" class="appPictures"/>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="gameScreenShots" class="pull-right">
-    <img src="static/pics/mashup.png" alt="" id="game2fame" />
-  </div>
-</div>
-<div class="jumbotron" id="homieJumbo">
-  <div id="aboutHomie">
-    <center><img src="static/pics/homieLogo.png" alt="" id="homieLogo" /></center>
-    <center><h1 id="homieTitle">Homie</h1></center>
-    <p id="summary">
-      Web app that allows users to connect to other users similar to Facebook. Created database schema along with intricate controllers and models for fully functional app.<br /><br />
-      <a href="https://github.com/Kerrin631/homie">Github</a>
-    </p>
-    <h3 id="projectHomie">Technologies</h3><br />
-    <ul id="homieTechs">
-      <li>Python</li>
-      <li>Flask</li>
-      <li>Apache</li>
-      <li>MySQL</li>
-      <li>Facebook API</li>
-      <li>OAuth</li>
-      <li>Geo Locator</li>
-      <li>Twitter Bootstrap</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-    </ul>
-  </div>
-  <div id="homieScreenShots" class="pull-right">
-    <img src="static/pics/mashupHomie.png" alt="" id="game2fame" />
-  </div>
-</div>
-<div class ="jumbotron" id="earthquakeJumbo">
-  <div id="aboutEarthquakes" class="col-xs-6 col-md-4">
-    <center><h1 class="shake" id="shakeQuake">Shake Quake</h1></center>
-    <p id="summary">Web app that allows users to visually learn in depth about earthquakes. They have access to all earthquake information from 1970 to present day including magnitude, location, date, and time. Created in 24 hours for NGA Expedition Hackathon.<br /><br />
-      <a href="https://github.com/chadfegley7/NGAExpeditionHack.git">Github</a>
-    </p>
-    <h3 id="projectHomie">Technologies</h3><br />
-    <ul id="earthquakesTechs">
-      <li>JavaScript</li>
-      <li>Angular</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>Twitter Bootstrap</li>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>Mapbox</li>
-      <li>NGA Earthquake API</li>
-      <li>jQuery</li>
-      <li>Geo Locator</li>
-    </ul>
-  </div>
-  <div id="earthScreenShots" class="pull-right">
-    <img src="static/pics/shakeQuake.png" alt="" id="game2fame" />
+<div class="needPad container-fluid">
+  <div class="row">
+    <div class="appInfo col-xs-12 col-sm-4">
+      <center><img src="static/pics/homieLogo.png" alt="" id="homieLogo" /></center>
+      <center><h1 class="appTitle">Homie</h1></center>
+      <p id="summary">
+        Web app that allows users to connect to other users similar to Facebook. Created database schema along with intricate controllers and models for fully functional app.<br /><br />
+        <a href="https://github.com/Kerrin631/homie">Github</a>
+      </p>
+      <center><h3 class="appTechs">Technologies</h3></center><br /><br />
+      <ul class="attributes" id="homieTechs">
+        <li>Python</li>
+        <li>Flask</li>
+        <li>Apache</li>
+        <li>MySQL</li>
+        <li>Facebook API</li>
+        <li>OAuth</li>
+        <li>Geo Locator</li>
+        <li>Twitter Bootstrap</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>
+    </div>
+    <div class="appScreenShots col-xs-12 col-sm-4">
+      <img src="static/pics/mashupHomie.png" alt="" class="appPictures" />
+    </div>
   </div>
 </div>
-<div class ="jumbotron" id="weatherJumbo">
-  <div id="aboutWeather" class="col-xs-6 col-md-4">
-    <center><h1 id="reactTitle">REACT-ive Weather</h1></center>
-    <p id="summary">My first web app built entirely with React. The user can enter in a city name and receive real-time temperatures from an API call to Open Weather Map. <br /><br />
-      <a href="https://github.com/chadfegley7/ReactWeatherApp.git">Github</a>
-    </p>
-    <h3 id="projectHomie">Technologies</h3><br />
-    <ul id="earthquakesTechs">
-      <li>React</li>
-      <li>Webpack</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>Foundation</li>
-      <li>HTML5</li>
-      <li>SCSS</li>
-      <li>OpenWeatherMap API</li>
-      <li>Babel</li>
-      <li>JSX</li>
-    </ul>
+<div class="needPad container-fluid">
+  <div class="row">
+    <div class="appInfo col-xs-12 col-sm-4">
+      <center><h1 class="shake" id="shakeQuake">Shake Quake</h1></center>
+      <p id="summary">Web app that allows users to visually learn in depth about earthquakes. They have access to all earthquake information from 1970 to present day including magnitude, location, date, and time. Created in 24 hours for NGA Expedition Hackathon.<br /><br />
+        <a href="https://github.com/chadfegley7/NGAExpeditionHack.git">Github</a>
+      </p>
+      <center><h3 class="appTechs">Technologies</h3></center><br /><br />
+      <ul id="earthquakesTechs">
+        <li>JavaScript</li>
+        <li>Angular</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Twitter Bootstrap</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Mapbox</li>
+        <li>NGA Earthquake API</li>
+        <li>jQuery</li>
+        <li>Geo Locator</li>
+      </ul>
+    </div>
+    <div class="appScreenShots col-xs-12 col-sm-4">
+      <img src="static/pics/shakeQuake.png" alt="" class="appPictures" id="earthScreenShots" />
+    </div>
   </div>
-  <div id="weatherScreenShots" class="pull-right">
-    <img src="static/pics/WeatherCollage.png" alt="" id="game2fame" />
+</div>
+<div class="needPad container-fluid">
+  <div class="row">
+    <div class="appInfo col-xs-12 col-sm-4">
+      <center><h1 class="appTitle">REACT-ive Weather</h1></center>
+      <p id="summary">My first web app built entirely with React. The user can enter in a city name and receive real-time temperatures from an API call to Open Weather Map. <br /><br />
+        <a href="https://github.com/chadfegley7/ReactWeatherApp.git">Github</a>
+      </p>
+      <center><h3 class="appTechs">Technologies</h3></center><br /><br />
+      <ul class="attributes" id="earthquakesTechs">
+        <li>React</li>
+        <li>Webpack</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Foundation</li>
+        <li>HTML5</li>
+        <li>SCSS</li>
+        <li>OpenWeatherMap API</li>
+        <li>Babel</li>
+        <li>JSX</li>
+      </ul>
+    </div>
+    <div class="appScreenShots col-xs-12 col-sm-4">
+      <img src="static/pics/WeatherCollage.png" alt="" class="appPictures" />
+    </div>
   </div>
 </div>
 <script src="path/angular.min.js"></script>
@@ -180,15 +194,17 @@ app.controller('appCtrl',['$scope','fgDelegate',function($scope,fgDelegate){
 
 }]);
 </script>
+<div class="needPad container-fluid">
+  <div class="row">
+    <div ng-controller="picsController">
+      <center><img src="static/pics/flick.jpg" /></center>
+      <center><h1 id="api">API Photo Gallery</h1></center>
+      <div class="col-xs-12 col-sm-4" ng-repeat="flickrPic in flickrPics" >
 
-<div ng-controller="picsController" id="galleryDiv">
-  <center><img src="static/pics/flick.jpg" /></center>
-  <center><h1 id="api">API Photo Gallery</h1></center>
-  <ul class="flowGrid" ng-flow-grid="homePageGrid" >
-    <li class="flowGridItem" ng-repeat="flickrPic in flickrPics" id="galleria">
-      <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
-      <center><h4 id="picTitle">{{flickrPic.title}}</h4></center>
-    </li>
-  </ul>
+          <img ng-src='https://farm{{flickrPic.farm}}.staticflickr.com/{{flickrPic.server}}/{{flickrPic.id}}_{{flickrPic.secret}}_h.jpg' id="apiPics" />
+          <center><h4 id="picTitle">{{flickrPic.title}}</h4></center>
 
+      </div>
+    </div>
+  </div>
 </div>
